@@ -11,7 +11,7 @@ public class ExamenEgit {
 		System.out.println("Dame el segundo valor");
 		int valor2 = s.nextInt();
 		System.out.println("Elige el calculo a realizar: ");
-		System.out.println("1. Suma/n2. Resta/n3. Multiplicación/n4. División.");
+		System.out.println("1. Suma\n2. Resta\n3. Multiplicación\n4. División.");
 		int opc = s.nextInt();
 		switch (opc) {
 		case 1: {
