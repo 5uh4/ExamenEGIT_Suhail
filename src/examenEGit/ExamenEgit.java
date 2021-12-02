@@ -21,6 +21,12 @@ public class ExamenEgit {
 		case 2: {
 			System.out.println("El resultado de la resta es: " + (valor1 - valor2));
 		}
+		case 3: {
+			System.out.println("El resultado de la multiplicacion es: " + (valor1 * valor2));
+		}
+		case 4: {
+			System.out.println("El resultado de la división es: " + (valor1 / valor2));
+		}
 		}
 		s.close();
 	}
